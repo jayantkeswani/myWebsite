@@ -146,12 +146,12 @@ p{
 /*End wrapper*/
 
 .holder960{
-	width:960px;
+    width:960px;
 	padding-left:15px;
 	padding-right:15px;
 	margin:0 auto;
 	position:relative;
-	
+
 }
 
 
@@ -159,13 +159,15 @@ p{
 /*Header*/
 
 header{
-	background:#2d2d2d;
+    //background:#2d2d2d;
+    background: #ffffff;
 	position:fixed;
 	width:100%;
 	top:0;
 	left:0;
 	z-index:1000;
-	color:#ffffff;	
+	//color: #FFFFFF;
+    color: #2d2d2d;
 
 }
 
@@ -181,12 +183,12 @@ nav#mainNav li {
 	display: inline-block;
 	font-size: 12px;
 	text-transform:uppercase;
-	
+
 }
 
 
 nav#mainNav li a{
-    color: #ffffff;
+    color: #000000;
     display: block;
     padding: 25px 20px;
     position: relative;
@@ -200,8 +202,23 @@ nav#mainNav li a:hover{
 
 
 nav#mainNav  .active{
-	color: #666666;
+	color: #c8c8c8;
 }
+
+nav#mainNav {
+    text-align:center;
+}
+
+
+
+nav#mainNav1 li {
+    display: inline-block;
+    font-size: 12px;
+    text-transform:uppercase;
+
+}
+
+
 
 
 .mobileBtn {
@@ -377,6 +394,9 @@ nav#mainNav  .active{
     font-size: 14px;
 }
 
+.innerTitle a{
+    color: #48D1CC;
+}
 
 .column{
 	float:left;	
@@ -806,7 +826,7 @@ nav#mainNav  .active{
 
 
 #resume .secTitle{
-	background:#92c14d;
+	background: #4cf93a;
 }
 
 
@@ -1011,7 +1031,7 @@ nav#mainNav  .active{
 
 
 #portfolio .secTitle{
-	background:#f97c39;
+	background: #f7275b;
 }
 
 .filterNav {
@@ -1280,7 +1300,7 @@ ul#category li a:hover{
 /*Contact*/
 
 #contact .secTitle{
-	background:#ffbe00;
+	background:#f97c39;
 }
 
 
@@ -1554,6 +1574,7 @@ ul#category li a:hover{
 .clearfix:after{
 	content:"";
 	display:table;
+
 }
 
 .clearfix:after{
