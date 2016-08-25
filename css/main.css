@@ -151,7 +151,6 @@ p{
 	padding-right:15px;
 	margin:0 auto;
 	position:relative;
-
 }
 
 
@@ -322,6 +321,9 @@ nav#mainNav1 li {
 
 /*End teaser*/
 
+.copyright{
+    text-align: right;
+}
 
 .section{
 	padding-bottom:40px;
@@ -399,7 +401,7 @@ nav#mainNav1 li {
 }
 
 .column{
-	float:left;	
+	float:left;
 }
 
 .top{
