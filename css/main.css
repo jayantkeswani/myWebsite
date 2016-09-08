@@ -500,6 +500,7 @@ nav#mainNav1 li {
     width: 200px;
 	margin:0 auto;
     zoom: 1;
+    border-color: inherit;
 	
 }
 
